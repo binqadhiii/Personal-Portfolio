@@ -1,0 +1,127 @@
+*{margin: 0%; padding: 0%; font-family: "josefin sans", sans-serif;
+}.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}nav ul li{
+    display: inline-block;
+    padding: 50px 32px;
+}nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    list-style: none;
+}nav ul li a:hover{
+    color: red;
+}.logo{
+    color: black;
+    font-size: 35px;
+}.content{
+    margin-left: 8%;
+    margin-top: 12%;
+}.content .img img{
+    width: 420px;
+    border-radius: 5000px;
+}.content .text{
+    width: 100%;
+    line-height: 64px;
+    color: black;
+}.content .text h4{
+    font-size: 23px;
+    color: black;
+    letter-spacing: 2px;
+}.content .text h1{
+    font-size: 75px;
+    letter-spacing: 1px;
+}.content .text h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+}.content .img{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    left: 55%;
+}.content .iframe iframe{
+    width: 420px;
+    border-radius: 5000px;
+    margin-top: 0%;
+}.content .iframe{
+    width: 40%;
+    height: 70%;
+    bottom: 0px;
+    margin-left: 0%;
+    margin-top: 0%;
+}.content .text h2{
+    font-size: 150%;
+    letter-spacing: 1px;
+    margin-left: 0%;
+    margin-top: 25%;
+}.content .text p{
+    font-size: 150%;
+    letter-spacing: 1px;
+    margin-left: 50%;
+    margin-top: 5%;
+    position: absolute;
+}.content .text h5{
+    font-size: 150%;
+    letter-spacing: 1px;
+    margin-left: 0%;
+    margin-top: 50%;
+    position: absolute;
+}.gallery{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 0%;
+    width: 2000;
+    margin-top: 35%;
+    margin-left: 5%;    
+}.gallery .discraiption{
+    padding: 10px;
+    text-align: center;
+}.gallery img{
+    width: 100%;
+    height: auto;
+}.content .text h6{
+    font-size: 150%;
+    letter-spacing: 1px;
+    margin-left: 0%;
+    margin-top: 100%;
+    position: absolute;
+}.instagram{
+    margin-top: 30%;
+}.massenger{
+    margin-top: 5%;
+}.gmail{
+    margin-top: 5%;
+}.instagram img{
+    width: 5%;
+    height: auto;
+}.massenger img{
+    width: 5%;
+    height: auto;
+}.gmail img{
+    width: 6%;
+    height: auto;
+}.accounts h2{
+    font-size: 150%;
+    margin-left: 10%;
+    margin-top: 112%;
+    position: absolute;
+}.accounts h4{
+    font-size: 150%;
+    margin-left: 10%;
+    margin-top: 121%;
+    position: absolute;
+}.accounts h3{
+    font-size: 150%;
+    margin-left: 10%;
+    margin-top: 130%;
+    position: absolute;
+}
